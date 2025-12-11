@@ -1,0 +1,362 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// ==================== USER PROFILE ====================
+// Extends Supabase Auth user with learning-specific data
+
+model Profile {
+  id            String    @id @default(cuid())
+  supabaseId    String    @unique // Links to Supabase Auth user.id
+  email         String    @unique
+  name          String?
+  nameCN        String?   // Chinese name if user wants one
+  avatarUrl     String?
+
+  // Learning preferences
+  dailyGoalXp   Int       @default(50)
+  level         String    @default("beginner") // beginner, intermediate, advanced
+
+  // Gamification stats
+  totalXp       Int       @default(0)
+  currentLevel  Int       @default(1)
+  streak        Int       @default(0)
+  longestStreak Int       @default(0)
+  lastStudyDate DateTime?
+
+  // Relations
+  progress      LessonProgress[]
+  vocabulary    UserVocabulary[]
+  achievements  UserAchievement[]
+
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+// ==================== CONTENT MODELS ====================
+
+model Track {
+  id            String    @id @default(cuid())
+  slug          String    @unique
+  order         Int       @default(0)
+
+  // Bilingual content
+  titleCN       String    // Chinese title
+  titlePT       String    // Portuguese title
+  descriptionPT String
+
+  // Metadata
+  icon          String
+  color         String    @default("#DE2910")
+  type          TrackType @default(HSK)
+  hskLevel      Int?      // 1-6 for HSK tracks
+
+  // Stats
+  totalLessons    Int     @default(0)
+  totalVocabulary Int     @default(0)
+  estimatedHours  Int     @default(0)
+
+  isPublished   Boolean   @default(false)
+
+  // Relations
+  modules       Module[]
+
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+enum TrackType {
+  HSK
+  THEMATIC
+  SKILL
+}
+
+model Module {
+  id            String    @id @default(cuid())
+  trackId       String
+  track         Track     @relation(fields: [trackId], references: [id], onDelete: Cascade)
+  slug          String    @unique
+  order         Int       @default(0)
+
+  // Bilingual content
+  titleCN       String
+  titlePT       String
+  descriptionPT String?
+
+  // Metadata
+  icon          String
+
+  // Relations
+  lessons       Lesson[]
+
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([trackId])
+}
+
+model Lesson {
+  id            String     @id @default(cuid())
+  moduleId      String
+  module        Module     @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  slug          String     @unique
+  order         Int        @default(0)
+
+  // Bilingual content
+  titleCN       String
+  titlePT       String
+  descriptionPT String
+
+  // Metadata
+  icon          String
+  type          LessonType @default(VOCABULARY)
+  difficulty    Difficulty @default(BEGINNER)
+  durationMin   Int        @default(15)
+  xpReward      Int        @default(50)
+
+  // Relations
+  vocabulary    Vocabulary[]
+  quizzes       Quiz[]
+  progress      LessonProgress[]
+
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+
+  @@index([moduleId])
+}
+
+enum LessonType {
+  VOCABULARY
+  GRAMMAR
+  CULTURE
+  CONVERSATION
+}
+
+enum Difficulty {
+  BEGINNER
+  INTERMEDIATE
+  ADVANCED
+}
+
+// ==================== VOCABULARY ====================
+
+model Vocabulary {
+  id              String   @id @default(cuid())
+  lessonId        String
+  lesson          Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  order           Int      @default(0)
+
+  // Word data
+  hanzi           String   // Chinese characters (simplified)
+  hanziTraditional String? // Traditional Chinese (optional)
+  pinyin          String   // Romanization with tones (e.g., "nǐ hǎo")
+  meaningPT       String   // Portuguese translation
+
+  // Additional info
+  partOfSpeech    String?  // noun, verb, adjective, etc.
+  hskLevel        Int      @default(1) // 1-6
+
+  // Examples
+  exampleCN       String?  // Example sentence in Chinese
+  examplePinyin   String?  // Pinyin for example
+  examplePT       String?  // Portuguese translation of example
+
+  // Audio
+  audioUrl        String?  // URL to pronunciation audio
+
+  // Cultural/usage notes
+  notes           String?  // Usage notes in Portuguese
+
+  // Spaced repetition relations
+  userVocabulary  UserVocabulary[]
+
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@index([lessonId])
+  @@index([hskLevel])
+}
+
+// ==================== QUIZ ====================
+
+model Quiz {
+  id            String       @id @default(cuid())
+  lessonId      String
+  lesson        Lesson       @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  // Bilingual content
+  titleCN       String?
+  titlePT       String
+  instructionsPT String?
+
+  // Settings
+  passingScore  Int          @default(70) // Percentage
+  timeLimit     Int?         // Seconds, null = no limit
+  shuffleQuestions Boolean   @default(true)
+
+  // Relations
+  questions     QuizQuestion[]
+
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+
+  @@index([lessonId])
+}
+
+model QuizQuestion {
+  id            String      @id @default(cuid())
+  quizId        String
+  quiz          Quiz        @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  order         Int         @default(0)
+
+  type          QuizType
+  points        Int         @default(10)
+
+  // Question content
+  promptPT      String      // Question in Portuguese
+  promptCN      String?     // Optional Chinese in prompt
+  promptPinyin  String?     // Optional pinyin
+  promptAudioUrl String?    // Optional audio
+
+  // Answer
+  correctAnswer String      // JSON string for complex answers
+  options       String?     // JSON array of options for multiple choice
+
+  // Feedback
+  explanationPT String?     // Explanation shown after answering
+
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+
+  @@index([quizId])
+}
+
+enum QuizType {
+  MULTIPLE_CHOICE
+  MATCHING
+  FILL_BLANK
+  LISTENING
+  CHARACTER_RECOGNITION
+  TONE_RECOGNITION
+}
+
+// ==================== PROGRESS TRACKING ====================
+
+model LessonProgress {
+  id            String   @id @default(cuid())
+  profileId     String
+  profile       Profile  @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  lessonId      String
+  lesson        Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  // Progress data
+  status        ProgressStatus @default(NOT_STARTED)
+  percentage    Float    @default(0)
+  score         Int      @default(0)
+  bestScore     Int      @default(0)
+  timeSpentMin  Int      @default(0)
+  attempts      Int      @default(0)
+
+  startedAt     DateTime?
+  completedAt   DateTime?
+  lastAccessedAt DateTime @default(now())
+
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@unique([profileId, lessonId])
+  @@index([profileId])
+  @@index([lessonId])
+}
+
+enum ProgressStatus {
+  NOT_STARTED
+  IN_PROGRESS
+  COMPLETED
+}
+
+// ==================== SPACED REPETITION ====================
+
+model UserVocabulary {
+  id            String     @id @default(cuid())
+  profileId     String
+  profile       Profile    @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  vocabularyId  String
+  vocabulary    Vocabulary @relation(fields: [vocabularyId], references: [id], onDelete: Cascade)
+
+  // SM-2 Algorithm data
+  easeFactor    Float      @default(2.5)
+  interval      Int        @default(1)     // days until next review
+  repetitions   Int        @default(0)
+  nextReview    DateTime   @default(now())
+  lastReview    DateTime?
+
+  // Performance stats
+  correctCount  Int        @default(0)
+  incorrectCount Int       @default(0)
+
+  // Mastery level (0-5)
+  masteryLevel  Int        @default(0)
+
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+
+  @@unique([profileId, vocabularyId])
+  @@index([profileId, nextReview])
+  @@index([vocabularyId])
+}
+
+// ==================== GAMIFICATION ====================
+
+model Achievement {
+  id            String   @id @default(cuid())
+  slug          String   @unique
+
+  // Bilingual content
+  nameCN        String
+  namePT        String
+  descriptionPT String
+
+  // Display
+  icon          String
+  badgeColor    String   @default("#DE2910")
+
+  // Requirements
+  type          AchievementType
+  threshold     Int      // e.g., complete 5 lessons, learn 100 words
+  xpReward      Int      @default(50)
+
+  // Relations
+  userAchievements UserAchievement[]
+
+  createdAt     DateTime @default(now())
+}
+
+enum AchievementType {
+  LESSONS_COMPLETED
+  VOCABULARY_LEARNED
+  STREAK_DAYS
+  XP_EARNED
+  PERFECT_QUIZ
+  TRACK_COMPLETED
+  FIRST_LESSON
+}
+
+model UserAchievement {
+  id            String      @id @default(cuid())
+  profileId     String
+  profile       Profile     @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  achievementId String
+  achievement   Achievement @relation(fields: [achievementId], references: [id], onDelete: Cascade)
+
+  unlockedAt    DateTime    @default(now())
+
+  @@unique([profileId, achievementId])
+  @@index([profileId])
+}

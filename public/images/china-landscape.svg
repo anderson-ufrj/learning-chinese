@@ -1,0 +1,64 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Céu gradiente -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradiente para montanhas -->
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2F4F4F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#696969;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Céu -->
+  <rect width="800" height="400" fill="url(#skyGradient)"/>
+  
+  <!-- Sol -->
+  <circle cx="650" cy="80" r="40" fill="#FFD700" opacity="0.8"/>
+  
+  <!-- Montanhas ao fundo -->
+  <polygon points="0,400 0,200 100,150 200,180 300,140 400,160 500,120 600,140 700,100 800,130 800,400" 
+           fill="url(#mountainGradient)" opacity="0.6"/>
+  
+  <!-- Montanhas intermediárias -->
+  <polygon points="0,400 0,250 150,200 250,230 350,190 450,210 550,170 650,190 750,150 800,180 800,400" 
+           fill="#4A5D23" opacity="0.8"/>
+  
+  <!-- Montanhas frontais -->
+  <polygon points="0,400 0,300 100,280 200,300 300,260 400,280 500,240 600,270 700,250 800,280 800,400" 
+           fill="#228B22"/>
+  
+  <!-- Templo tradicional -->
+  <!-- Base do templo -->
+  <rect x="350" y="320" width="100" height="80" fill="#8B4513"/>
+  
+  <!-- Telhado do templo -->
+  <polygon points="320,320 400,280 480,320" fill="#DC143C"/>
+  <polygon points="400,280 350,300 450,300" fill="#B22222"/>
+  
+  <!-- Colunas -->
+  <rect x="370" y="300" width="8" height="100" fill="#8B4513"/>
+  <rect x="422" y="300" width="8" height="100" fill="#8B4513"/>
+  
+  <!-- Rio -->
+  <path d="M 0 380 Q 200 370 400 375 T 800 380 L 800 400 L 0 400 Z" fill="#4682B4" opacity="0.7"/>
+  
+  <!-- Nuvens -->
+  <ellipse cx="150" cy="100" rx="30" ry="15" fill="white" opacity="0.8"/>
+  <ellipse cx="170" cy="95" rx="25" ry="12" fill="white" opacity="0.8"/>
+  <ellipse cx="550" cy="120" rx="35" ry="18" fill="white" opacity="0.7"/>
+  <ellipse cx="575" cy="115" rx="28" ry="14" fill="white" opacity="0.7"/>
+  
+  <!-- Bambu -->
+  <rect x="50" y="250" width="4" height="150" fill="#228B22"/>
+  <rect x="60" y="260" width="4" height="140" fill="#32CD32"/>
+  <rect x="70" y="255" width="4" height="145" fill="#228B22"/>
+  
+  <!-- Folhas de bambu -->
+  <ellipse cx="52" cy="250" rx="8" ry="4" fill="#32CD32" transform="rotate(-30 52 250)"/>
+  <ellipse cx="62" cy="260" rx="8" ry="4" fill="#228B22" transform="rotate(20 62 260)"/>
+  <ellipse cx="72" cy="255" rx="8" ry="4" fill="#32CD32" transform="rotate(-15 72 255)"/>
+</svg>

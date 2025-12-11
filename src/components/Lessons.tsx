@@ -191,10 +191,10 @@ export default function Lessons() {
                 {/* Hover overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-red-500/90 to-red-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-2xl">
                   <Link
-                    href={`/learn/hsk1/lesson-${lesson.id}`}
+                    href="/register"
                     className="inline-flex items-center gap-2 bg-white text-red-600 font-semibold py-3 px-6 rounded-xl text-sm hover:bg-slate-50 transition-colors"
                   >
-                    Iniciar Lição
+                    Cadastre-se para Começar
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>
@@ -205,17 +205,20 @@ export default function Lessons() {
           })}
         </div>
 
-        {/* View All */}
+        {/* CTA */}
         <div className="text-center mt-12">
           <Link
-            href="/learn"
-            className="inline-flex items-center gap-2 text-slate-600 hover:text-slate-900 font-medium transition-colors"
+            href="/register"
+            className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all hover:-translate-y-0.5 shadow-lg shadow-slate-900/25"
           >
-            Ver todas as trilhas de aprendizado
+            Criar Conta Gratuita
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </Link>
+          <p className="text-slate-500 text-sm mt-4">
+            Acesso a todas as lições e recursos gratuitos
+          </p>
         </div>
       </div>
     </section>

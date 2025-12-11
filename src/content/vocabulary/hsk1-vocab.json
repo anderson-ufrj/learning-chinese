@@ -1,0 +1,1091 @@
+{
+  "version": "1.0",
+  "hskLevel": 1,
+  "items": [
+    {
+      "id": "v-nihao",
+      "hanzi": "你好",
+      "pinyin": "nǐ hǎo",
+      "meaningPT": "Olá",
+      "hskLevel": 1,
+      "partOfSpeech": "interjeição",
+      "examples": [
+        {
+          "sentenceCN": "你好，我叫李明。",
+          "sentencePinyin": "Nǐ hǎo, wǒ jiào Lǐ Míng.",
+          "sentencePT": "Olá, meu nome é Li Ming."
+        }
+      ],
+      "notes": "Cumprimento mais comum em chinês. Usado em situações formais e informais.",
+      "tags": ["greetings", "essential", "daily"]
+    },
+    {
+      "id": "v-zaijian",
+      "hanzi": "再见",
+      "pinyin": "zài jiàn",
+      "meaningPT": "Tchau / Adeus",
+      "hskLevel": 1,
+      "partOfSpeech": "interjeição",
+      "examples": [
+        {
+          "sentenceCN": "明天见！再见！",
+          "sentencePinyin": "Míngtiān jiàn! Zàijiàn!",
+          "sentencePT": "Até amanhã! Tchau!"
+        }
+      ],
+      "notes": "Literalmente significa 'ver de novo'. Usado para despedidas.",
+      "tags": ["greetings", "essential"]
+    },
+    {
+      "id": "v-xiexie",
+      "hanzi": "谢谢",
+      "pinyin": "xiè xie",
+      "meaningPT": "Obrigado(a)",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "谢谢你的帮助！",
+          "sentencePinyin": "Xièxie nǐ de bāngzhù!",
+          "sentencePT": "Obrigado pela sua ajuda!"
+        }
+      ],
+      "notes": "Agradecimento básico. O segundo 谢 é pronunciado com tom neutro.",
+      "tags": ["greetings", "essential", "polite"]
+    },
+    {
+      "id": "v-bukeqi",
+      "hanzi": "不客气",
+      "pinyin": "bú kè qi",
+      "meaningPT": "De nada",
+      "hskLevel": 1,
+      "partOfSpeech": "expressão",
+      "examples": [
+        {
+          "sentenceCN": "谢谢！— 不客气！",
+          "sentencePinyin": "Xièxie! — Bú kèqi!",
+          "sentencePT": "Obrigado! — De nada!"
+        }
+      ],
+      "notes": "Resposta padrão para 谢谢. Literalmente 'não seja formal'.",
+      "tags": ["greetings", "polite"]
+    },
+    {
+      "id": "v-duibuqi",
+      "hanzi": "对不起",
+      "pinyin": "duì bu qǐ",
+      "meaningPT": "Desculpe",
+      "hskLevel": 1,
+      "partOfSpeech": "expressão",
+      "examples": [
+        {
+          "sentenceCN": "对不起，我来晚了。",
+          "sentencePinyin": "Duìbuqǐ, wǒ lái wǎn le.",
+          "sentencePT": "Desculpe, cheguei atrasado."
+        }
+      ],
+      "notes": "Usado para pedir desculpas. Literalmente 'não enfrentar corretamente'.",
+      "tags": ["greetings", "polite"]
+    },
+    {
+      "id": "v-meiguanxi",
+      "hanzi": "没关系",
+      "pinyin": "méi guān xi",
+      "meaningPT": "Não tem problema / Tudo bem",
+      "hskLevel": 1,
+      "partOfSpeech": "expressão",
+      "examples": [
+        {
+          "sentenceCN": "对不起！— 没关系！",
+          "sentencePinyin": "Duìbuqǐ! — Méi guānxi!",
+          "sentencePT": "Desculpe! — Não tem problema!"
+        }
+      ],
+      "notes": "Resposta para 对不起. Literalmente 'não tem relação/importância'.",
+      "tags": ["greetings", "polite"]
+    },
+    {
+      "id": "v-yi",
+      "hanzi": "一",
+      "pinyin": "yī",
+      "meaningPT": "Um (1)",
+      "hskLevel": 1,
+      "partOfSpeech": "número",
+      "examples": [
+        {
+          "sentenceCN": "我有一个妹妹。",
+          "sentencePinyin": "Wǒ yǒu yī gè mèimei.",
+          "sentencePT": "Eu tenho uma irmã mais nova."
+        }
+      ],
+      "notes": "O tom muda dependendo do que vem depois: yī, yí ou yì.",
+      "tags": ["numbers", "essential"]
+    },
+    {
+      "id": "v-er",
+      "hanzi": "二",
+      "pinyin": "èr",
+      "meaningPT": "Dois (2)",
+      "hskLevel": 1,
+      "partOfSpeech": "número",
+      "examples": [
+        {
+          "sentenceCN": "二加二等于四。",
+          "sentencePinyin": "Èr jiā èr děngyú sì.",
+          "sentencePT": "Dois mais dois é igual a quatro."
+        }
+      ],
+      "notes": "Use 两 (liǎng) antes de classificadores.",
+      "tags": ["numbers", "essential"]
+    },
+    {
+      "id": "v-san",
+      "hanzi": "三",
+      "pinyin": "sān",
+      "meaningPT": "Três (3)",
+      "hskLevel": 1,
+      "partOfSpeech": "número",
+      "examples": [
+        {
+          "sentenceCN": "我家有三口人。",
+          "sentencePinyin": "Wǒ jiā yǒu sān kǒu rén.",
+          "sentencePT": "Minha família tem três pessoas."
+        }
+      ],
+      "tags": ["numbers", "essential"]
+    },
+    {
+      "id": "v-si",
+      "hanzi": "四",
+      "pinyin": "sì",
+      "meaningPT": "Quatro (4)",
+      "hskLevel": 1,
+      "partOfSpeech": "número",
+      "examples": [
+        {
+          "sentenceCN": "一年有四个季节。",
+          "sentencePinyin": "Yī nián yǒu sì gè jìjié.",
+          "sentencePT": "Um ano tem quatro estações."
+        }
+      ],
+      "notes": "Considerado número de azar na China por soar como 'morte' (死 sǐ).",
+      "tags": ["numbers", "essential"]
+    },
+    {
+      "id": "v-wu",
+      "hanzi": "五",
+      "pinyin": "wǔ",
+      "meaningPT": "Cinco (5)",
+      "hskLevel": 1,
+      "partOfSpeech": "número",
+      "examples": [
+        {
+          "sentenceCN": "一只手有五个手指。",
+          "sentencePinyin": "Yī zhī shǒu yǒu wǔ gè shǒuzhǐ.",
+          "sentencePT": "Uma mão tem cinco dedos."
+        }
+      ],
+      "tags": ["numbers", "essential"]
+    },
+    {
+      "id": "v-liu",
+      "hanzi": "六",
+      "pinyin": "liù",
+      "meaningPT": "Seis (6)",
+      "hskLevel": 1,
+      "partOfSpeech": "número",
+      "examples": [
+        {
+          "sentenceCN": "我六点起床。",
+          "sentencePinyin": "Wǒ liù diǎn qǐchuáng.",
+          "sentencePT": "Eu acordo às seis horas."
+        }
+      ],
+      "notes": "Número da sorte na China, representa 'fluidez'.",
+      "tags": ["numbers", "essential"]
+    },
+    {
+      "id": "v-qi",
+      "hanzi": "七",
+      "pinyin": "qī",
+      "meaningPT": "Sete (7)",
+      "hskLevel": 1,
+      "partOfSpeech": "número",
+      "examples": [
+        {
+          "sentenceCN": "一周有七天。",
+          "sentencePinyin": "Yī zhōu yǒu qī tiān.",
+          "sentencePT": "Uma semana tem sete dias."
+        }
+      ],
+      "tags": ["numbers", "essential"]
+    },
+    {
+      "id": "v-ba",
+      "hanzi": "八",
+      "pinyin": "bā",
+      "meaningPT": "Oito (8)",
+      "hskLevel": 1,
+      "partOfSpeech": "número",
+      "examples": [
+        {
+          "sentenceCN": "我八岁开始学习。",
+          "sentencePinyin": "Wǒ bā suì kāishǐ xuéxí.",
+          "sentencePT": "Comecei a estudar aos oito anos."
+        }
+      ],
+      "notes": "Número muito auspicioso na China, associado à prosperidade.",
+      "tags": ["numbers", "essential"]
+    },
+    {
+      "id": "v-jiu",
+      "hanzi": "九",
+      "pinyin": "jiǔ",
+      "meaningPT": "Nove (9)",
+      "hskLevel": 1,
+      "partOfSpeech": "número",
+      "examples": [
+        {
+          "sentenceCN": "九月是秋天。",
+          "sentencePinyin": "Jiǔ yuè shì qiūtiān.",
+          "sentencePT": "Setembro é outono."
+        }
+      ],
+      "notes": "Associado a longevidade por soar como 'durar' (久 jiǔ).",
+      "tags": ["numbers", "essential"]
+    },
+    {
+      "id": "v-shi",
+      "hanzi": "十",
+      "pinyin": "shí",
+      "meaningPT": "Dez (10)",
+      "hskLevel": 1,
+      "partOfSpeech": "número",
+      "examples": [
+        {
+          "sentenceCN": "十分钟后见。",
+          "sentencePinyin": "Shí fēnzhōng hòu jiàn.",
+          "sentencePT": "Nos vemos em dez minutos."
+        }
+      ],
+      "notes": "Base do sistema numérico chinês.",
+      "tags": ["numbers", "essential"]
+    },
+    {
+      "id": "v-wo",
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "meaningPT": "Eu",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome",
+      "examples": [
+        {
+          "sentenceCN": "我是学生。",
+          "sentencePinyin": "Wǒ shì xuésheng.",
+          "sentencePT": "Eu sou estudante."
+        }
+      ],
+      "tags": ["pronouns", "essential"]
+    },
+    {
+      "id": "v-ni",
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "meaningPT": "Você",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome",
+      "examples": [
+        {
+          "sentenceCN": "你叫什么名字？",
+          "sentencePinyin": "Nǐ jiào shénme míngzi?",
+          "sentencePT": "Qual é o seu nome?"
+        }
+      ],
+      "notes": "Forma respeitosa: 您 (nín).",
+      "tags": ["pronouns", "essential"]
+    },
+    {
+      "id": "v-ta-he",
+      "hanzi": "他",
+      "pinyin": "tā",
+      "meaningPT": "Ele",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome",
+      "examples": [
+        {
+          "sentenceCN": "他是我的朋友。",
+          "sentencePinyin": "Tā shì wǒ de péngyou.",
+          "sentencePT": "Ele é meu amigo."
+        }
+      ],
+      "notes": "Na fala, 他 (ele), 她 (ela) e 它 (ele/neutro) soam iguais.",
+      "tags": ["pronouns", "essential"]
+    },
+    {
+      "id": "v-ta-she",
+      "hanzi": "她",
+      "pinyin": "tā",
+      "meaningPT": "Ela",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome",
+      "examples": [
+        {
+          "sentenceCN": "她是我的姐姐。",
+          "sentencePinyin": "Tā shì wǒ de jiějie.",
+          "sentencePT": "Ela é minha irmã mais velha."
+        }
+      ],
+      "notes": "Mesmo som que 他, mas escrita diferente para 'ela'.",
+      "tags": ["pronouns", "essential"]
+    },
+    {
+      "id": "v-women",
+      "hanzi": "我们",
+      "pinyin": "wǒ men",
+      "meaningPT": "Nós",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome",
+      "examples": [
+        {
+          "sentenceCN": "我们是朋友。",
+          "sentencePinyin": "Wǒmen shì péngyou.",
+          "sentencePT": "Nós somos amigos."
+        }
+      ],
+      "notes": "们 é o sufixo de plural para pronomes.",
+      "tags": ["pronouns", "essential"]
+    },
+    {
+      "id": "v-nimen",
+      "hanzi": "你们",
+      "pinyin": "nǐ men",
+      "meaningPT": "Vocês",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome",
+      "examples": [
+        {
+          "sentenceCN": "你们好！",
+          "sentencePinyin": "Nǐmen hǎo!",
+          "sentencePT": "Olá a vocês!"
+        }
+      ],
+      "tags": ["pronouns", "essential"]
+    },
+    {
+      "id": "v-tamen",
+      "hanzi": "他们",
+      "pinyin": "tā men",
+      "meaningPT": "Eles/Elas",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome",
+      "examples": [
+        {
+          "sentenceCN": "他们是老师。",
+          "sentencePinyin": "Tāmen shì lǎoshī.",
+          "sentencePT": "Eles são professores."
+        }
+      ],
+      "notes": "Pode ser escrito 他们 (eles) ou 她们 (elas).",
+      "tags": ["pronouns", "essential"]
+    },
+    {
+      "id": "v-baba",
+      "hanzi": "爸爸",
+      "pinyin": "bà ba",
+      "meaningPT": "Pai / Papai",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我爸爸是医生。",
+          "sentencePinyin": "Wǒ bàba shì yīshēng.",
+          "sentencePT": "Meu pai é médico."
+        }
+      ],
+      "notes": "Forma informal/carinhosa. Formal: 父亲 (fùqīn).",
+      "tags": ["family", "essential"]
+    },
+    {
+      "id": "v-mama",
+      "hanzi": "妈妈",
+      "pinyin": "mā ma",
+      "meaningPT": "Mãe / Mamãe",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "妈妈做的饭很好吃。",
+          "sentencePinyin": "Māma zuò de fàn hěn hǎochī.",
+          "sentencePT": "A comida que mamãe faz é muito gostosa."
+        }
+      ],
+      "notes": "Forma informal/carinhosa. Formal: 母亲 (mǔqīn).",
+      "tags": ["family", "essential"]
+    },
+    {
+      "id": "v-gege",
+      "hanzi": "哥哥",
+      "pinyin": "gē ge",
+      "meaningPT": "Irmão mais velho",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我哥哥比我大三岁。",
+          "sentencePinyin": "Wǒ gēge bǐ wǒ dà sān suì.",
+          "sentencePT": "Meu irmão mais velho é três anos mais velho que eu."
+        }
+      ],
+      "tags": ["family", "essential"]
+    },
+    {
+      "id": "v-jiejie",
+      "hanzi": "姐姐",
+      "pinyin": "jiě jie",
+      "meaningPT": "Irmã mais velha",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我姐姐在北京工作。",
+          "sentencePinyin": "Wǒ jiějie zài Běijīng gōngzuò.",
+          "sentencePT": "Minha irmã mais velha trabalha em Pequim."
+        }
+      ],
+      "tags": ["family", "essential"]
+    },
+    {
+      "id": "v-didi",
+      "hanzi": "弟弟",
+      "pinyin": "dì di",
+      "meaningPT": "Irmão mais novo",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我弟弟还在上学。",
+          "sentencePinyin": "Wǒ dìdi hái zài shàngxué.",
+          "sentencePT": "Meu irmão mais novo ainda está estudando."
+        }
+      ],
+      "tags": ["family", "essential"]
+    },
+    {
+      "id": "v-meimei",
+      "hanzi": "妹妹",
+      "pinyin": "mèi mei",
+      "meaningPT": "Irmã mais nova",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我妹妹很可爱。",
+          "sentencePinyin": "Wǒ mèimei hěn kě'ài.",
+          "sentencePT": "Minha irmã mais nova é muito fofa."
+        }
+      ],
+      "tags": ["family", "essential"]
+    },
+    {
+      "id": "v-erzi",
+      "hanzi": "儿子",
+      "pinyin": "ér zi",
+      "meaningPT": "Filho",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "他们有一个儿子。",
+          "sentencePinyin": "Tāmen yǒu yī gè érzi.",
+          "sentencePT": "Eles têm um filho."
+        }
+      ],
+      "tags": ["family", "essential"]
+    },
+    {
+      "id": "v-nver",
+      "hanzi": "女儿",
+      "pinyin": "nǚ ér",
+      "meaningPT": "Filha",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "她的女儿很漂亮。",
+          "sentencePinyin": "Tā de nǚ'ér hěn piàoliang.",
+          "sentencePT": "A filha dela é muito bonita."
+        }
+      ],
+      "tags": ["family", "essential"]
+    },
+    {
+      "id": "v-laoshi",
+      "hanzi": "老师",
+      "pinyin": "lǎo shī",
+      "meaningPT": "Professor(a)",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "王老师教中文。",
+          "sentencePinyin": "Wáng lǎoshī jiāo Zhōngwén.",
+          "sentencePT": "O Professor Wang ensina chinês."
+        }
+      ],
+      "notes": "老师 é um título de respeito usado após o sobrenome.",
+      "tags": ["occupation", "essential"]
+    },
+    {
+      "id": "v-xuesheng",
+      "hanzi": "学生",
+      "pinyin": "xué sheng",
+      "meaningPT": "Estudante",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我是大学生。",
+          "sentencePinyin": "Wǒ shì dàxuéshēng.",
+          "sentencePT": "Eu sou estudante universitário."
+        }
+      ],
+      "tags": ["occupation", "essential"]
+    },
+    {
+      "id": "v-yisheng",
+      "hanzi": "医生",
+      "pinyin": "yī shēng",
+      "meaningPT": "Médico(a)",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "她想当医生。",
+          "sentencePinyin": "Tā xiǎng dāng yīshēng.",
+          "sentencePT": "Ela quer ser médica."
+        }
+      ],
+      "tags": ["occupation", "essential"]
+    },
+    {
+      "id": "v-gongzuo",
+      "hanzi": "工作",
+      "pinyin": "gōng zuò",
+      "meaningPT": "Trabalho / Trabalhar",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo/verbo",
+      "examples": [
+        {
+          "sentenceCN": "你在哪儿工作？",
+          "sentencePinyin": "Nǐ zài nǎr gōngzuò?",
+          "sentencePT": "Onde você trabalha?"
+        }
+      ],
+      "tags": ["occupation", "essential"]
+    },
+    {
+      "id": "v-tongxue",
+      "hanzi": "同学",
+      "pinyin": "tóng xué",
+      "meaningPT": "Colega de classe",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "他是我的同学。",
+          "sentencePinyin": "Tā shì wǒ de tóngxué.",
+          "sentencePT": "Ele é meu colega de classe."
+        }
+      ],
+      "tags": ["occupation", "essential"]
+    },
+    {
+      "id": "v-xingqiyi",
+      "hanzi": "星期一",
+      "pinyin": "xīng qī yī",
+      "meaningPT": "Segunda-feira",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "星期一我很忙。",
+          "sentencePinyin": "Xīngqīyī wǒ hěn máng.",
+          "sentencePT": "Segunda-feira eu estou muito ocupado."
+        }
+      ],
+      "notes": "星期 = semana, 一 = um → primeiro dia útil",
+      "tags": ["time", "days", "essential"]
+    },
+    {
+      "id": "v-xingqier",
+      "hanzi": "星期二",
+      "pinyin": "xīng qī èr",
+      "meaningPT": "Terça-feira",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我们星期二见面吧。",
+          "sentencePinyin": "Wǒmen xīngqī'èr jiànmiàn ba.",
+          "sentencePT": "Vamos nos encontrar na terça-feira."
+        }
+      ],
+      "tags": ["time", "days", "essential"]
+    },
+    {
+      "id": "v-xingqisan",
+      "hanzi": "星期三",
+      "pinyin": "xīng qī sān",
+      "meaningPT": "Quarta-feira",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "星期三有中文课。",
+          "sentencePinyin": "Xīngqīsān yǒu Zhōngwén kè.",
+          "sentencePT": "Quarta-feira tem aula de chinês."
+        }
+      ],
+      "tags": ["time", "days", "essential"]
+    },
+    {
+      "id": "v-xingqisi",
+      "hanzi": "星期四",
+      "pinyin": "xīng qī sì",
+      "meaningPT": "Quinta-feira",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "星期四是我的生日。",
+          "sentencePinyin": "Xīngqīsì shì wǒ de shēngrì.",
+          "sentencePT": "Quinta-feira é meu aniversário."
+        }
+      ],
+      "tags": ["time", "days", "essential"]
+    },
+    {
+      "id": "v-xingqiwu",
+      "hanzi": "星期五",
+      "pinyin": "xīng qī wǔ",
+      "meaningPT": "Sexta-feira",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "星期五晚上我们去吃饭。",
+          "sentencePinyin": "Xīngqīwǔ wǎnshang wǒmen qù chīfàn.",
+          "sentencePT": "Sexta à noite vamos jantar."
+        }
+      ],
+      "tags": ["time", "days", "essential"]
+    },
+    {
+      "id": "v-xingqiliu",
+      "hanzi": "星期六",
+      "pinyin": "xīng qī liù",
+      "meaningPT": "Sábado",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "星期六我不上班。",
+          "sentencePinyin": "Xīngqīliù wǒ bù shàngbān.",
+          "sentencePT": "Sábado eu não trabalho."
+        }
+      ],
+      "tags": ["time", "days", "essential"]
+    },
+    {
+      "id": "v-xingqitian",
+      "hanzi": "星期天",
+      "pinyin": "xīng qī tiān",
+      "meaningPT": "Domingo",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "星期天我在家休息。",
+          "sentencePinyin": "Xīngqītiān wǒ zài jiā xiūxi.",
+          "sentencePT": "Domingo eu descanso em casa."
+        }
+      ],
+      "notes": "Também pode ser 星期日 (xīngqīrì).",
+      "tags": ["time", "days", "essential"]
+    },
+    {
+      "id": "v-jintian",
+      "hanzi": "今天",
+      "pinyin": "jīn tiān",
+      "meaningPT": "Hoje",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "今天天气很好。",
+          "sentencePinyin": "Jīntiān tiānqì hěn hǎo.",
+          "sentencePT": "Hoje o tempo está bom."
+        }
+      ],
+      "tags": ["time", "essential"]
+    },
+    {
+      "id": "v-mingtian",
+      "hanzi": "明天",
+      "pinyin": "míng tiān",
+      "meaningPT": "Amanhã",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "明天见！",
+          "sentencePinyin": "Míngtiān jiàn!",
+          "sentencePT": "Até amanhã!"
+        }
+      ],
+      "tags": ["time", "essential"]
+    },
+    {
+      "id": "v-zuotian",
+      "hanzi": "昨天",
+      "pinyin": "zuó tiān",
+      "meaningPT": "Ontem",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "昨天我去看电影了。",
+          "sentencePinyin": "Zuótiān wǒ qù kàn diànyǐng le.",
+          "sentencePT": "Ontem eu fui ver um filme."
+        }
+      ],
+      "tags": ["time", "essential"]
+    },
+    {
+      "id": "v-dian",
+      "hanzi": "点",
+      "pinyin": "diǎn",
+      "meaningPT": "Hora (relógio)",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "现在几点？三点。",
+          "sentencePinyin": "Xiànzài jǐ diǎn? Sān diǎn.",
+          "sentencePT": "Que horas são? Três horas."
+        }
+      ],
+      "notes": "Usado para indicar horas: 几点? = Que horas?",
+      "tags": ["time", "essential"]
+    },
+    {
+      "id": "v-fen",
+      "hanzi": "分",
+      "pinyin": "fēn",
+      "meaningPT": "Minuto",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "三点十五分。",
+          "sentencePinyin": "Sān diǎn shíwǔ fēn.",
+          "sentencePT": "Três e quinze (3:15)."
+        }
+      ],
+      "tags": ["time", "essential"]
+    },
+    {
+      "id": "v-xianzai",
+      "hanzi": "现在",
+      "pinyin": "xiàn zài",
+      "meaningPT": "Agora",
+      "hskLevel": 1,
+      "partOfSpeech": "advérbio",
+      "examples": [
+        {
+          "sentenceCN": "你现在在哪儿？",
+          "sentencePinyin": "Nǐ xiànzài zài nǎr?",
+          "sentencePT": "Onde você está agora?"
+        }
+      ],
+      "tags": ["time", "essential"]
+    },
+    {
+      "id": "v-shangwu",
+      "hanzi": "上午",
+      "pinyin": "shàng wǔ",
+      "meaningPT": "Manhã (antes do meio-dia)",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "上午我有课。",
+          "sentencePinyin": "Shàngwǔ wǒ yǒu kè.",
+          "sentencePT": "De manhã eu tenho aula."
+        }
+      ],
+      "tags": ["time", "essential"]
+    },
+    {
+      "id": "v-xiawu",
+      "hanzi": "下午",
+      "pinyin": "xià wǔ",
+      "meaningPT": "Tarde",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "下午三点见。",
+          "sentencePinyin": "Xiàwǔ sān diǎn jiàn.",
+          "sentencePT": "Nos vemos às três da tarde."
+        }
+      ],
+      "tags": ["time", "essential"]
+    },
+    {
+      "id": "v-wanshang",
+      "hanzi": "晚上",
+      "pinyin": "wǎn shang",
+      "meaningPT": "Noite",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "晚上好！",
+          "sentencePinyin": "Wǎnshang hǎo!",
+          "sentencePT": "Boa noite!"
+        }
+      ],
+      "tags": ["time", "essential"]
+    },
+    {
+      "id": "v-chi",
+      "hanzi": "吃",
+      "pinyin": "chī",
+      "meaningPT": "Comer",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "你想吃什么？",
+          "sentencePinyin": "Nǐ xiǎng chī shénme?",
+          "sentencePT": "O que você quer comer?"
+        }
+      ],
+      "tags": ["food", "verbs", "essential"]
+    },
+    {
+      "id": "v-he",
+      "hanzi": "喝",
+      "pinyin": "hē",
+      "meaningPT": "Beber",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我喜欢喝茶。",
+          "sentencePinyin": "Wǒ xǐhuan hē chá.",
+          "sentencePT": "Eu gosto de beber chá."
+        }
+      ],
+      "tags": ["food", "verbs", "essential"]
+    },
+    {
+      "id": "v-fan",
+      "hanzi": "饭",
+      "pinyin": "fàn",
+      "meaningPT": "Arroz / Refeição",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我们去吃饭吧！",
+          "sentencePinyin": "Wǒmen qù chīfàn ba!",
+          "sentencePT": "Vamos comer!"
+        }
+      ],
+      "notes": "吃饭 significa 'comer uma refeição', não apenas 'comer arroz'.",
+      "tags": ["food", "essential"]
+    },
+    {
+      "id": "v-cai",
+      "hanzi": "菜",
+      "pinyin": "cài",
+      "meaningPT": "Prato / Legumes",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "这个菜很好吃。",
+          "sentencePinyin": "Zhège cài hěn hǎochī.",
+          "sentencePT": "Este prato é muito gostoso."
+        }
+      ],
+      "tags": ["food", "essential"]
+    },
+    {
+      "id": "v-shui",
+      "hanzi": "水",
+      "pinyin": "shuǐ",
+      "meaningPT": "Água",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "请给我一杯水。",
+          "sentencePinyin": "Qǐng gěi wǒ yī bēi shuǐ.",
+          "sentencePT": "Por favor, me dê um copo de água."
+        }
+      ],
+      "tags": ["food", "essential"]
+    },
+    {
+      "id": "v-cha",
+      "hanzi": "茶",
+      "pinyin": "chá",
+      "meaningPT": "Chá",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "中国茶很有名。",
+          "sentencePinyin": "Zhōngguó chá hěn yǒumíng.",
+          "sentencePT": "O chá chinês é muito famoso."
+        }
+      ],
+      "notes": "O chá é parte fundamental da cultura chinesa.",
+      "tags": ["food", "essential"]
+    },
+    {
+      "id": "v-kafei",
+      "hanzi": "咖啡",
+      "pinyin": "kā fēi",
+      "meaningPT": "Café",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我每天喝咖啡。",
+          "sentencePinyin": "Wǒ měitiān hē kāfēi.",
+          "sentencePT": "Eu bebo café todo dia."
+        }
+      ],
+      "notes": "Transliteração do inglês 'coffee'.",
+      "tags": ["food", "essential"]
+    },
+    {
+      "id": "v-shuiguo",
+      "hanzi": "水果",
+      "pinyin": "shuǐ guǒ",
+      "meaningPT": "Fruta",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我喜欢吃水果。",
+          "sentencePinyin": "Wǒ xǐhuan chī shuǐguǒ.",
+          "sentencePT": "Eu gosto de comer frutas."
+        }
+      ],
+      "tags": ["food", "essential"]
+    },
+    {
+      "id": "v-jia",
+      "hanzi": "家",
+      "pinyin": "jiā",
+      "meaningPT": "Casa / Lar / Família",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "欢迎来我家！",
+          "sentencePinyin": "Huānyíng lái wǒ jiā!",
+          "sentencePT": "Bem-vindo à minha casa!"
+        }
+      ],
+      "tags": ["places", "essential"]
+    },
+    {
+      "id": "v-xuexiao",
+      "hanzi": "学校",
+      "pinyin": "xué xiào",
+      "meaningPT": "Escola",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我们的学校很大。",
+          "sentencePinyin": "Wǒmen de xuéxiào hěn dà.",
+          "sentencePT": "Nossa escola é muito grande."
+        }
+      ],
+      "tags": ["places", "essential"]
+    },
+    {
+      "id": "v-yiyuan",
+      "hanzi": "医院",
+      "pinyin": "yī yuàn",
+      "meaningPT": "Hospital",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "医院在哪儿？",
+          "sentencePinyin": "Yīyuàn zài nǎr?",
+          "sentencePT": "Onde fica o hospital?"
+        }
+      ],
+      "tags": ["places", "essential"]
+    },
+    {
+      "id": "v-shangdian",
+      "hanzi": "商店",
+      "pinyin": "shāng diàn",
+      "meaningPT": "Loja",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "这个商店卖什么？",
+          "sentencePinyin": "Zhège shāngdiàn mài shénme?",
+          "sentencePT": "O que essa loja vende?"
+        }
+      ],
+      "tags": ["places", "essential"]
+    },
+    {
+      "id": "v-fandian",
+      "hanzi": "饭店",
+      "pinyin": "fàn diàn",
+      "meaningPT": "Restaurante / Hotel",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "这家饭店的菜很好吃。",
+          "sentencePinyin": "Zhè jiā fàndiàn de cài hěn hǎochī.",
+          "sentencePT": "A comida deste restaurante é muito boa."
+        }
+      ],
+      "notes": "Pode significar tanto restaurante quanto hotel.",
+      "tags": ["places", "essential"]
+    },
+    {
+      "id": "v-zhongguo",
+      "hanzi": "中国",
+      "pinyin": "Zhōng guó",
+      "meaningPT": "China",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我想去中国。",
+          "sentencePinyin": "Wǒ xiǎng qù Zhōngguó.",
+          "sentencePT": "Eu quero ir para a China."
+        }
+      ],
+      "notes": "Literalmente 'País do Centro' ou 'Reino do Meio'.",
+      "tags": ["places", "essential"]
+    }
+  ]
+}

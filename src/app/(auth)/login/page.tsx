@@ -1,11 +1,12 @@
 'use client'
 
-import { Suspense, useState } from 'react'
+import { Suspense, useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
 import LoginForm from '@/components/auth/LoginForm'
 import OAuthButtons from '@/components/auth/OAuthButtons'
+import type { SupabaseClient } from '@supabase/supabase-js'
 
 function LoginContent() {
   const router = useRouter()
@@ -14,10 +15,15 @@ function LoginContent() {
 
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const [supabase, setSupabase] = useState<SupabaseClient | null>(null)
 
-  const supabase = createClient()
+  // Initialize Supabase client only on client-side
+  useEffect(() => {
+    setSupabase(createClient())
+  }, [])
 
   const handleEmailLogin = async (email: string, password: string) => {
+    if (!supabase) return
     setLoading(true)
     setError(null)
 
@@ -37,6 +43,7 @@ function LoginContent() {
   }
 
   const handleOAuthLogin = async (provider: 'google' | 'github') => {
+    if (!supabase) return
     setLoading(true)
     setError(null)
 
@@ -51,6 +58,22 @@ function LoginContent() {
       setError(error.message)
       setLoading(false)
     }
+  }
+
+  // Loading state while Supabase initializes
+  if (!supabase) {
+    return (
+      <div className="space-y-6 animate-pulse">
+        <div className="text-center">
+          <div className="h-8 bg-gray-200 rounded w-48 mx-auto mb-2"></div>
+          <div className="h-4 bg-gray-200 rounded w-64 mx-auto"></div>
+        </div>
+        <div className="space-y-3">
+          <div className="h-12 bg-gray-200 rounded"></div>
+          <div className="h-12 bg-gray-200 rounded"></div>
+        </div>
+      </div>
+    )
   }
 
   return (

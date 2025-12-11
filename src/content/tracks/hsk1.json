@@ -1,0 +1,246 @@
+{
+  "id": "hsk1",
+  "slug": "hsk1",
+  "titleCN": "HSK 1",
+  "titlePT": "HSK 1 - Iniciante",
+  "descriptionPT": "Domine as 150 palavras essenciais do HSK 1 e construa uma base sólida para seu aprendizado de chinês. Aprenda cumprimentos, números, família, cores e muito mais!",
+  "icon": "🌟",
+  "color": "#DE2910",
+  "type": "hsk",
+  "hskLevel": 1,
+  "modules": [
+    {
+      "id": "hsk1-basics",
+      "slug": "hsk1-basics",
+      "trackId": "hsk1",
+      "titleCN": "基础",
+      "titlePT": "Fundamentos",
+      "descriptionPT": "Comece com as palavras mais essenciais do chinês",
+      "icon": "📚",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "hsk1-greetings",
+          "slug": "hsk1-greetings",
+          "moduleId": "hsk1-basics",
+          "titleCN": "问候",
+          "titlePT": "Cumprimentos",
+          "descriptionPT": "Aprenda a cumprimentar pessoas em chinês - olá, adeus, obrigado e mais!",
+          "icon": "👋",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 15,
+          "xpReward": 50,
+          "order": 1,
+          "vocabularyIds": ["v-nihao", "v-zaijian", "v-xiexie", "v-bukeqi", "v-duibuqi", "v-meiguanxi"],
+          "objectives": [
+            "Cumprimentar pessoas em chinês",
+            "Despedir-se educadamente",
+            "Agradecer e responder a agradecimentos"
+          ]
+        },
+        {
+          "id": "hsk1-numbers",
+          "slug": "hsk1-numbers",
+          "moduleId": "hsk1-basics",
+          "titleCN": "数字",
+          "titlePT": "Números",
+          "descriptionPT": "Aprenda a contar de 1 a 10 em chinês e entenda o sistema numérico",
+          "icon": "🔢",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 20,
+          "xpReward": 50,
+          "order": 2,
+          "vocabularyIds": ["v-yi", "v-er", "v-san", "v-si", "v-wu", "v-liu", "v-qi", "v-ba", "v-jiu", "v-shi"],
+          "objectives": [
+            "Contar de 1 a 10 em chinês",
+            "Reconhecer os caracteres dos números",
+            "Usar números em contexto"
+          ]
+        },
+        {
+          "id": "hsk1-pronouns",
+          "slug": "hsk1-pronouns",
+          "moduleId": "hsk1-basics",
+          "titleCN": "代词",
+          "titlePT": "Pronomes",
+          "descriptionPT": "Aprenda os pronomes pessoais e como falar sobre você e outras pessoas",
+          "icon": "👤",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 15,
+          "xpReward": 50,
+          "order": 3,
+          "vocabularyIds": ["v-wo", "v-ni", "v-ta-he", "v-ta-she", "v-women", "v-nimen", "v-tamen"],
+          "objectives": [
+            "Usar pronomes pessoais",
+            "Diferenciar ele/ela em chinês",
+            "Formar plurais de pronomes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk1-people",
+      "slug": "hsk1-people",
+      "trackId": "hsk1",
+      "titleCN": "人物",
+      "titlePT": "Pessoas",
+      "descriptionPT": "Vocabulário relacionado a família e pessoas",
+      "icon": "👨‍👩‍👧‍👦",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "hsk1-family",
+          "slug": "hsk1-family",
+          "moduleId": "hsk1-people",
+          "titleCN": "家庭",
+          "titlePT": "Família",
+          "descriptionPT": "Aprenda a falar sobre sua família - pai, mãe, irmãos e mais",
+          "icon": "👨‍👩‍👧",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 20,
+          "xpReward": 50,
+          "order": 1,
+          "vocabularyIds": ["v-baba", "v-mama", "v-gege", "v-jiejie", "v-didi", "v-meimei", "v-erzi", "v-nver"],
+          "objectives": [
+            "Nomear membros da família",
+            "Descrever sua família em chinês",
+            "Entender a importância da família na cultura chinesa"
+          ]
+        },
+        {
+          "id": "hsk1-occupations",
+          "slug": "hsk1-occupations",
+          "moduleId": "hsk1-people",
+          "titleCN": "职业",
+          "titlePT": "Profissões",
+          "descriptionPT": "Aprenda vocabulário sobre trabalho e profissões comuns",
+          "icon": "💼",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 15,
+          "xpReward": 50,
+          "order": 2,
+          "vocabularyIds": ["v-laoshi", "v-xuesheng", "v-yisheng", "v-gongzuo", "v-tongxue"],
+          "objectives": [
+            "Identificar profissões comuns",
+            "Perguntar sobre o trabalho de alguém",
+            "Falar sobre sua ocupação"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk1-time",
+      "slug": "hsk1-time",
+      "trackId": "hsk1",
+      "titleCN": "时间",
+      "titlePT": "Tempo",
+      "descriptionPT": "Aprenda a falar sobre tempo, dias e datas",
+      "icon": "🕐",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "hsk1-days",
+          "slug": "hsk1-days",
+          "moduleId": "hsk1-time",
+          "titleCN": "星期",
+          "titlePT": "Dias da Semana",
+          "descriptionPT": "Aprenda os dias da semana em chinês",
+          "icon": "📅",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 15,
+          "xpReward": 50,
+          "order": 1,
+          "vocabularyIds": ["v-xingqiyi", "v-xingqier", "v-xingqisan", "v-xingqisi", "v-xingqiwu", "v-xingqiliu", "v-xingqitian", "v-jintian", "v-mingtian", "v-zuotian"],
+          "objectives": [
+            "Dizer os dias da semana",
+            "Perguntar que dia é hoje",
+            "Falar sobre hoje, amanhã e ontem"
+          ]
+        },
+        {
+          "id": "hsk1-time-words",
+          "slug": "hsk1-time-words",
+          "moduleId": "hsk1-time",
+          "titleCN": "时间词",
+          "titlePT": "Expressões de Tempo",
+          "descriptionPT": "Aprenda palavras para falar sobre horas e momentos do dia",
+          "icon": "⏰",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 15,
+          "xpReward": 50,
+          "order": 2,
+          "vocabularyIds": ["v-dian", "v-fen", "v-xianzai", "v-shangwu", "v-xiawu", "v-wanshang"],
+          "objectives": [
+            "Dizer as horas em chinês",
+            "Identificar momentos do dia",
+            "Perguntar e responder sobre horários"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk1-daily",
+      "slug": "hsk1-daily",
+      "trackId": "hsk1",
+      "titleCN": "日常",
+      "titlePT": "Dia a Dia",
+      "descriptionPT": "Vocabulário para situações do cotidiano",
+      "icon": "☀️",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "hsk1-food",
+          "slug": "hsk1-food",
+          "moduleId": "hsk1-daily",
+          "titleCN": "食物",
+          "titlePT": "Comida",
+          "descriptionPT": "Aprenda vocabulário sobre comida e bebida",
+          "icon": "🍜",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 20,
+          "xpReward": 50,
+          "order": 1,
+          "vocabularyIds": ["v-chi", "v-he", "v-fan", "v-cai", "v-shui", "v-cha", "v-kafei", "v-shuiguo"],
+          "objectives": [
+            "Pedir comida e bebida",
+            "Expressar preferências alimentares",
+            "Vocabulário de restaurante básico"
+          ]
+        },
+        {
+          "id": "hsk1-places",
+          "slug": "hsk1-places",
+          "moduleId": "hsk1-daily",
+          "titleCN": "地方",
+          "titlePT": "Lugares",
+          "descriptionPT": "Aprenda nomes de lugares comuns",
+          "icon": "🏠",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 15,
+          "xpReward": 50,
+          "order": 2,
+          "vocabularyIds": ["v-jia", "v-xuexiao", "v-yiyuan", "v-shangdian", "v-fandian", "v-zhongguo"],
+          "objectives": [
+            "Identificar lugares comuns",
+            "Perguntar onde fica algo",
+            "Falar sobre ir a lugares"
+          ]
+        }
+      ]
+    }
+  ],
+  "totalLessons": 10,
+  "totalVocabulary": 75,
+  "estimatedHours": 15,
+  "isPublished": true,
+  "tags": ["hsk", "beginner", "essential", "foundation"]
+}

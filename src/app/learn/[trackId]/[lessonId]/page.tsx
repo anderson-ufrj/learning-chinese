@@ -4,6 +4,8 @@ import { useParams, useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { createClient } from '@/lib/supabase/client'
+import { SpeakButton } from '@/components/SpeakButton'
+import { useSpeech } from '@/lib/useSpeech'
 
 interface VocabularyItem {
   id: number
@@ -76,6 +78,8 @@ export default function LessonPage() {
   const [showTranslation, setShowTranslation] = useState(true)
   const [flipped, setFlipped] = useState(false)
   const [isLoggedIn, setIsLoggedIn] = useState(false)
+  const [speechRate, setSpeechRate] = useState(0.8)
+  const { speak, isSpeaking, isSupported } = useSpeech({ rate: speechRate })
 
   useEffect(() => {
     const checkAuth = async () => {
@@ -174,9 +178,36 @@ export default function LessonPage() {
       >
         <div className="p-8 md:p-12 text-center min-h-[350px] flex flex-col justify-center">
           {/* Main Character */}
-          <div className="font-chinese text-7xl md:text-9xl font-bold text-slate-900 mb-6">
+          <div className="font-chinese text-7xl md:text-9xl font-bold text-slate-900 mb-4">
             {currentWord.hanzi}
           </div>
+
+          {/* Audio Button */}
+          {isSupported && (
+            <button
+              onClick={(e) => {
+                e.stopPropagation()
+                speak(currentWord.hanzi)
+              }}
+              disabled={isSpeaking}
+              className={`
+                mx-auto mb-4 flex items-center gap-2 px-4 py-2 rounded-full
+                transition-all duration-200
+                ${isSpeaking
+                  ? 'bg-red-500 text-white animate-pulse'
+                  : 'bg-red-100 text-red-600 hover:bg-red-200'
+                }
+              `}
+              title="Ouvir pronúncia"
+            >
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+              </svg>
+              <span className="text-sm font-medium">
+                {isSpeaking ? 'Falando...' : 'Ouvir'}
+              </span>
+            </button>
+          )}
 
           {/* Pinyin */}
           {(showPinyin || flipped) && (
@@ -253,7 +284,7 @@ export default function LessonPage() {
       </div>
 
       {/* Options */}
-      <div className="flex items-center justify-center gap-6 mb-8">
+      <div className="flex flex-wrap items-center justify-center gap-6 mb-8">
         <label className="flex items-center gap-2 cursor-pointer">
           <input
             type="checkbox"
@@ -272,6 +303,21 @@ export default function LessonPage() {
           />
           <span className="text-sm text-slate-600">Mostrar tradução</span>
         </label>
+        {isSupported && (
+          <div className="flex items-center gap-2">
+            <span className="text-sm text-slate-600">Velocidade:</span>
+            <input
+              type="range"
+              min="0.5"
+              max="1.2"
+              step="0.1"
+              value={speechRate}
+              onChange={(e) => setSpeechRate(parseFloat(e.target.value))}
+              className="w-20 h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-red-500"
+            />
+            <span className="text-sm text-slate-500 w-8">{speechRate}x</span>
+          </div>
+        )}
       </div>
 
       {/* Keyboard hints */}
@@ -318,6 +364,7 @@ export default function LessonPage() {
           <table className="w-full">
             <thead className="bg-slate-50 border-b border-slate-200">
               <tr>
+                {isSupported && <th className="px-3 py-3 text-center text-sm font-medium text-slate-500 w-12">🔊</th>}
                 <th className="px-6 py-3 text-left text-sm font-medium text-slate-500">Caractere</th>
                 <th className="px-6 py-3 text-left text-sm font-medium text-slate-500">Pinyin</th>
                 <th className="px-6 py-3 text-left text-sm font-medium text-slate-500">Tradução</th>
@@ -330,6 +377,22 @@ export default function LessonPage() {
                   className={`hover:bg-slate-50 cursor-pointer ${idx === currentIndex ? 'bg-red-50' : ''}`}
                   onClick={() => { setCurrentIndex(idx); setFlipped(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
                 >
+                  {isSupported && (
+                    <td className="px-3 py-4 text-center">
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation()
+                          speak(word.hanzi)
+                        }}
+                        className="w-8 h-8 rounded-full bg-red-100 text-red-600 hover:bg-red-200 hover:scale-110 transition-all inline-flex items-center justify-center"
+                        title="Ouvir"
+                      >
+                        <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                          <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/>
+                        </svg>
+                      </button>
+                    </td>
+                  )}
                   <td className="px-6 py-4 font-chinese text-lg">{word.hanzi}</td>
                   <td className="px-6 py-4 text-red-500">{word.pinyin}</td>
                   <td className="px-6 py-4 text-slate-600">{word.translation}</td>

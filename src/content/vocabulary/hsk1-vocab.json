@@ -1086,6 +1086,916 @@
       ],
       "notes": "Literalmente 'País do Centro' ou 'Reino do Meio'.",
       "tags": ["places", "essential"]
+    },
+    {
+      "id": "v-hong",
+      "hanzi": "红",
+      "pinyin": "hóng",
+      "meaningPT": "Vermelho",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "她穿红色的衣服。",
+          "sentencePinyin": "Tā chuān hóngsè de yīfu.",
+          "sentencePT": "Ela veste roupa vermelha."
+        }
+      ],
+      "notes": "Cor da sorte na China, usada em casamentos e Ano Novo.",
+      "tags": ["colors", "essential"]
+    },
+    {
+      "id": "v-bai",
+      "hanzi": "白",
+      "pinyin": "bái",
+      "meaningPT": "Branco",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "白云很漂亮。",
+          "sentencePinyin": "Bái yún hěn piàoliang.",
+          "sentencePT": "As nuvens brancas são bonitas."
+        }
+      ],
+      "notes": "Na China, branco é associado a funerais e luto.",
+      "tags": ["colors", "essential"]
+    },
+    {
+      "id": "v-hei",
+      "hanzi": "黑",
+      "pinyin": "hēi",
+      "meaningPT": "Preto",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "我有一只黑猫。",
+          "sentencePinyin": "Wǒ yǒu yī zhī hēi māo.",
+          "sentencePT": "Eu tenho um gato preto."
+        }
+      ],
+      "tags": ["colors", "essential"]
+    },
+    {
+      "id": "v-lv",
+      "hanzi": "绿",
+      "pinyin": "lǜ",
+      "meaningPT": "Verde",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "树叶是绿色的。",
+          "sentencePinyin": "Shùyè shì lǜsè de.",
+          "sentencePT": "As folhas das árvores são verdes."
+        }
+      ],
+      "tags": ["colors", "essential"]
+    },
+    {
+      "id": "v-huang",
+      "hanzi": "黄",
+      "pinyin": "huáng",
+      "meaningPT": "Amarelo",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "香蕉是黄色的。",
+          "sentencePinyin": "Xiāngjiāo shì huángsè de.",
+          "sentencePT": "A banana é amarela."
+        }
+      ],
+      "notes": "Cor imperial na China antiga.",
+      "tags": ["colors", "essential"]
+    },
+    {
+      "id": "v-lan",
+      "hanzi": "蓝",
+      "pinyin": "lán",
+      "meaningPT": "Azul",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "天空是蓝色的。",
+          "sentencePinyin": "Tiānkōng shì lánsè de.",
+          "sentencePT": "O céu é azul."
+        }
+      ],
+      "tags": ["colors", "essential"]
+    },
+    {
+      "id": "v-shi",
+      "hanzi": "是",
+      "pinyin": "shì",
+      "meaningPT": "Ser / Estar",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我是巴西人。",
+          "sentencePinyin": "Wǒ shì Bāxīrén.",
+          "sentencePT": "Eu sou brasileiro."
+        }
+      ],
+      "notes": "Verbo mais básico do chinês. Não se conjuga.",
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-you",
+      "hanzi": "有",
+      "pinyin": "yǒu",
+      "meaningPT": "Ter / Haver",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "你有时间吗？",
+          "sentencePinyin": "Nǐ yǒu shíjiān ma?",
+          "sentencePT": "Você tem tempo?"
+        }
+      ],
+      "notes": "Negação especial: 没有 (méiyǒu), não 不有.",
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-qu",
+      "hanzi": "去",
+      "pinyin": "qù",
+      "meaningPT": "Ir",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我去学校。",
+          "sentencePinyin": "Wǒ qù xuéxiào.",
+          "sentencePT": "Eu vou para a escola."
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-lai",
+      "hanzi": "来",
+      "pinyin": "lái",
+      "meaningPT": "Vir",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "请来我家。",
+          "sentencePinyin": "Qǐng lái wǒ jiā.",
+          "sentencePT": "Por favor, venha à minha casa."
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-kan",
+      "hanzi": "看",
+      "pinyin": "kàn",
+      "meaningPT": "Ver / Olhar / Ler",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我喜欢看书。",
+          "sentencePinyin": "Wǒ xǐhuan kàn shū.",
+          "sentencePT": "Eu gosto de ler livros."
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-ting",
+      "hanzi": "听",
+      "pinyin": "tīng",
+      "meaningPT": "Ouvir / Escutar",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我在听音乐。",
+          "sentencePinyin": "Wǒ zài tīng yīnyuè.",
+          "sentencePT": "Estou ouvindo música."
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-shuo",
+      "hanzi": "说",
+      "pinyin": "shuō",
+      "meaningPT": "Falar / Dizer",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "你会说中文吗？",
+          "sentencePinyin": "Nǐ huì shuō Zhōngwén ma?",
+          "sentencePT": "Você sabe falar chinês?"
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-du",
+      "hanzi": "读",
+      "pinyin": "dú",
+      "meaningPT": "Ler (em voz alta)",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "请读这个句子。",
+          "sentencePinyin": "Qǐng dú zhège jùzi.",
+          "sentencePT": "Por favor, leia esta frase."
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-xie",
+      "hanzi": "写",
+      "pinyin": "xiě",
+      "meaningPT": "Escrever",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我在写汉字。",
+          "sentencePinyin": "Wǒ zài xiě hànzì.",
+          "sentencePT": "Estou escrevendo caracteres chineses."
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-zuo",
+      "hanzi": "做",
+      "pinyin": "zuò",
+      "meaningPT": "Fazer",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "你在做什么？",
+          "sentencePinyin": "Nǐ zài zuò shénme?",
+          "sentencePT": "O que você está fazendo?"
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-mai",
+      "hanzi": "买",
+      "pinyin": "mǎi",
+      "meaningPT": "Comprar",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我想买这个。",
+          "sentencePinyin": "Wǒ xiǎng mǎi zhège.",
+          "sentencePT": "Eu quero comprar isso."
+        }
+      ],
+      "tags": ["verbs", "shopping", "essential"]
+    },
+    {
+      "id": "v-xiang",
+      "hanzi": "想",
+      "pinyin": "xiǎng",
+      "meaningPT": "Querer / Pensar",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我想喝水。",
+          "sentencePinyin": "Wǒ xiǎng hē shuǐ.",
+          "sentencePT": "Eu quero beber água."
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-xihuan",
+      "hanzi": "喜欢",
+      "pinyin": "xǐ huan",
+      "meaningPT": "Gostar",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我喜欢中国菜。",
+          "sentencePinyin": "Wǒ xǐhuan Zhōngguó cài.",
+          "sentencePT": "Eu gosto de comida chinesa."
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-ai",
+      "hanzi": "爱",
+      "pinyin": "ài",
+      "meaningPT": "Amar",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我爱我的家人。",
+          "sentencePinyin": "Wǒ ài wǒ de jiārén.",
+          "sentencePT": "Eu amo minha família."
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-hui",
+      "hanzi": "会",
+      "pinyin": "huì",
+      "meaningPT": "Saber (habilidade) / Poder",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我会说英语。",
+          "sentencePinyin": "Wǒ huì shuō Yīngyǔ.",
+          "sentencePT": "Eu sei falar inglês."
+        }
+      ],
+      "notes": "Indica habilidade aprendida.",
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-neng",
+      "hanzi": "能",
+      "pinyin": "néng",
+      "meaningPT": "Poder (capacidade)",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "你能帮我吗？",
+          "sentencePinyin": "Nǐ néng bāng wǒ ma?",
+          "sentencePT": "Você pode me ajudar?"
+        }
+      ],
+      "notes": "Indica capacidade física ou circunstancial.",
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-keyi",
+      "hanzi": "可以",
+      "pinyin": "kě yǐ",
+      "meaningPT": "Poder (permissão)",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我可以进来吗？",
+          "sentencePinyin": "Wǒ kěyǐ jìnlái ma?",
+          "sentencePT": "Posso entrar?"
+        }
+      ],
+      "notes": "Usado para pedir permissão.",
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-yao",
+      "hanzi": "要",
+      "pinyin": "yào",
+      "meaningPT": "Querer / Precisar",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我要一杯咖啡。",
+          "sentencePinyin": "Wǒ yào yī bēi kāfēi.",
+          "sentencePT": "Eu quero um café."
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-jiao",
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "meaningPT": "Chamar / Chamar-se",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我叫小明。",
+          "sentencePinyin": "Wǒ jiào Xiǎo Míng.",
+          "sentencePT": "Meu nome é Xiao Ming."
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-zhu",
+      "hanzi": "住",
+      "pinyin": "zhù",
+      "meaningPT": "Morar / Viver",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "你住在哪儿？",
+          "sentencePinyin": "Nǐ zhù zài nǎr?",
+          "sentencePT": "Onde você mora?"
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-zuo-sit",
+      "hanzi": "坐",
+      "pinyin": "zuò",
+      "meaningPT": "Sentar / Ir de (transporte)",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "请坐！",
+          "sentencePinyin": "Qǐng zuò!",
+          "sentencePT": "Por favor, sente-se!"
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-xuexi",
+      "hanzi": "学习",
+      "pinyin": "xué xí",
+      "meaningPT": "Estudar / Aprender",
+      "hskLevel": 1,
+      "partOfSpeech": "verbo",
+      "examples": [
+        {
+          "sentenceCN": "我在学习中文。",
+          "sentencePinyin": "Wǒ zài xuéxí Zhōngwén.",
+          "sentencePT": "Estou estudando chinês."
+        }
+      ],
+      "tags": ["verbs", "essential"]
+    },
+    {
+      "id": "v-da",
+      "hanzi": "大",
+      "pinyin": "dà",
+      "meaningPT": "Grande",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "中国很大。",
+          "sentencePinyin": "Zhōngguó hěn dà.",
+          "sentencePT": "A China é muito grande."
+        }
+      ],
+      "tags": ["adjectives", "essential"]
+    },
+    {
+      "id": "v-xiao",
+      "hanzi": "小",
+      "pinyin": "xiǎo",
+      "meaningPT": "Pequeno",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "这只猫很小。",
+          "sentencePinyin": "Zhè zhī māo hěn xiǎo.",
+          "sentencePT": "Este gato é muito pequeno."
+        }
+      ],
+      "tags": ["adjectives", "essential"]
+    },
+    {
+      "id": "v-duo",
+      "hanzi": "多",
+      "pinyin": "duō",
+      "meaningPT": "Muito / Muitos",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "人很多。",
+          "sentencePinyin": "Rén hěn duō.",
+          "sentencePT": "Há muitas pessoas."
+        }
+      ],
+      "tags": ["adjectives", "essential"]
+    },
+    {
+      "id": "v-shao",
+      "hanzi": "少",
+      "pinyin": "shǎo",
+      "meaningPT": "Pouco / Poucos",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "这里人很少。",
+          "sentencePinyin": "Zhèlǐ rén hěn shǎo.",
+          "sentencePT": "Aqui há poucas pessoas."
+        }
+      ],
+      "tags": ["adjectives", "essential"]
+    },
+    {
+      "id": "v-hao",
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "meaningPT": "Bom / Bem",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "这本书很好。",
+          "sentencePinyin": "Zhè běn shū hěn hǎo.",
+          "sentencePT": "Este livro é muito bom."
+        }
+      ],
+      "tags": ["adjectives", "essential"]
+    },
+    {
+      "id": "v-gao",
+      "hanzi": "高",
+      "pinyin": "gāo",
+      "meaningPT": "Alto",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "他很高。",
+          "sentencePinyin": "Tā hěn gāo.",
+          "sentencePT": "Ele é muito alto."
+        }
+      ],
+      "tags": ["adjectives", "essential"]
+    },
+    {
+      "id": "v-re",
+      "hanzi": "热",
+      "pinyin": "rè",
+      "meaningPT": "Quente",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "今天很热。",
+          "sentencePinyin": "Jīntiān hěn rè.",
+          "sentencePT": "Hoje está muito quente."
+        }
+      ],
+      "tags": ["adjectives", "essential"]
+    },
+    {
+      "id": "v-leng",
+      "hanzi": "冷",
+      "pinyin": "lěng",
+      "meaningPT": "Frio",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "冬天很冷。",
+          "sentencePinyin": "Dōngtiān hěn lěng.",
+          "sentencePT": "O inverno é muito frio."
+        }
+      ],
+      "tags": ["adjectives", "essential"]
+    },
+    {
+      "id": "v-piaoliang",
+      "hanzi": "漂亮",
+      "pinyin": "piào liang",
+      "meaningPT": "Bonito(a)",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "她很漂亮。",
+          "sentencePinyin": "Tā hěn piàoliang.",
+          "sentencePT": "Ela é muito bonita."
+        }
+      ],
+      "tags": ["adjectives", "essential"]
+    },
+    {
+      "id": "v-kuai",
+      "hanzi": "快",
+      "pinyin": "kuài",
+      "meaningPT": "Rápido",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "他跑得很快。",
+          "sentencePinyin": "Tā pǎo de hěn kuài.",
+          "sentencePT": "Ele corre muito rápido."
+        }
+      ],
+      "tags": ["adjectives", "essential"]
+    },
+    {
+      "id": "v-man",
+      "hanzi": "慢",
+      "pinyin": "màn",
+      "meaningPT": "Lento / Devagar",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "请说慢一点。",
+          "sentencePinyin": "Qǐng shuō màn yīdiǎn.",
+          "sentencePT": "Por favor, fale mais devagar."
+        }
+      ],
+      "tags": ["adjectives", "essential"]
+    },
+    {
+      "id": "v-mang",
+      "hanzi": "忙",
+      "pinyin": "máng",
+      "meaningPT": "Ocupado",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "我很忙。",
+          "sentencePinyin": "Wǒ hěn máng.",
+          "sentencePT": "Estou muito ocupado."
+        }
+      ],
+      "tags": ["adjectives", "essential"]
+    },
+    {
+      "id": "v-shenme",
+      "hanzi": "什么",
+      "pinyin": "shén me",
+      "meaningPT": "O que / Qual",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome interrogativo",
+      "examples": [
+        {
+          "sentenceCN": "这是什么？",
+          "sentencePinyin": "Zhè shì shénme?",
+          "sentencePT": "O que é isso?"
+        }
+      ],
+      "tags": ["questions", "essential"]
+    },
+    {
+      "id": "v-shei",
+      "hanzi": "谁",
+      "pinyin": "shéi",
+      "meaningPT": "Quem",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome interrogativo",
+      "examples": [
+        {
+          "sentenceCN": "他是谁？",
+          "sentencePinyin": "Tā shì shéi?",
+          "sentencePT": "Quem é ele?"
+        }
+      ],
+      "tags": ["questions", "essential"]
+    },
+    {
+      "id": "v-na",
+      "hanzi": "哪",
+      "pinyin": "nǎ",
+      "meaningPT": "Qual",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome interrogativo",
+      "examples": [
+        {
+          "sentenceCN": "你是哪国人？",
+          "sentencePinyin": "Nǐ shì nǎ guó rén?",
+          "sentencePT": "De qual país você é?"
+        }
+      ],
+      "tags": ["questions", "essential"]
+    },
+    {
+      "id": "v-nar",
+      "hanzi": "哪儿",
+      "pinyin": "nǎr",
+      "meaningPT": "Onde",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome interrogativo",
+      "examples": [
+        {
+          "sentenceCN": "你去哪儿？",
+          "sentencePinyin": "Nǐ qù nǎr?",
+          "sentencePT": "Onde você vai?"
+        }
+      ],
+      "notes": "No sul da China usam 哪里 (nǎlǐ).",
+      "tags": ["questions", "essential"]
+    },
+    {
+      "id": "v-ji",
+      "hanzi": "几",
+      "pinyin": "jǐ",
+      "meaningPT": "Quantos (1-10)",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome interrogativo",
+      "examples": [
+        {
+          "sentenceCN": "你有几个孩子？",
+          "sentencePinyin": "Nǐ yǒu jǐ gè háizi?",
+          "sentencePT": "Quantos filhos você tem?"
+        }
+      ],
+      "notes": "Usado quando espera-se números pequenos (1-10).",
+      "tags": ["questions", "numbers", "essential"]
+    },
+    {
+      "id": "v-duoshao",
+      "hanzi": "多少",
+      "pinyin": "duō shao",
+      "meaningPT": "Quantos / Quanto",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome interrogativo",
+      "examples": [
+        {
+          "sentenceCN": "这个多少钱？",
+          "sentencePinyin": "Zhège duōshao qián?",
+          "sentencePT": "Quanto custa isso?"
+        }
+      ],
+      "notes": "Usado para números maiores ou quando não se sabe a quantidade.",
+      "tags": ["questions", "shopping", "essential"]
+    },
+    {
+      "id": "v-zenme",
+      "hanzi": "怎么",
+      "pinyin": "zěn me",
+      "meaningPT": "Como",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome interrogativo",
+      "examples": [
+        {
+          "sentenceCN": "这个字怎么写？",
+          "sentencePinyin": "Zhège zì zěnme xiě?",
+          "sentencePT": "Como se escreve este caractere?"
+        }
+      ],
+      "tags": ["questions", "essential"]
+    },
+    {
+      "id": "v-zenmeyang",
+      "hanzi": "怎么样",
+      "pinyin": "zěn me yàng",
+      "meaningPT": "Como está / O que acha",
+      "hskLevel": 1,
+      "partOfSpeech": "pronome interrogativo",
+      "examples": [
+        {
+          "sentenceCN": "你觉得怎么样？",
+          "sentencePinyin": "Nǐ juéde zěnmeyàng?",
+          "sentencePT": "O que você acha?"
+        }
+      ],
+      "tags": ["questions", "essential"]
+    },
+    {
+      "id": "v-qian",
+      "hanzi": "钱",
+      "pinyin": "qián",
+      "meaningPT": "Dinheiro",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我没有钱。",
+          "sentencePinyin": "Wǒ méiyǒu qián.",
+          "sentencePT": "Eu não tenho dinheiro."
+        }
+      ],
+      "tags": ["shopping", "essential"]
+    },
+    {
+      "id": "v-kuai-money",
+      "hanzi": "块",
+      "pinyin": "kuài",
+      "meaningPT": "Yuan (unidade monetária)",
+      "hskLevel": 1,
+      "partOfSpeech": "classificador",
+      "examples": [
+        {
+          "sentenceCN": "这个十块钱。",
+          "sentencePinyin": "Zhège shí kuài qián.",
+          "sentencePT": "Isso custa 10 yuans."
+        }
+      ],
+      "notes": "Forma coloquial de 元 (yuán).",
+      "tags": ["shopping", "essential"]
+    },
+    {
+      "id": "v-gui",
+      "hanzi": "贵",
+      "pinyin": "guì",
+      "meaningPT": "Caro",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "太贵了！",
+          "sentencePinyin": "Tài guì le!",
+          "sentencePT": "Muito caro!"
+        }
+      ],
+      "tags": ["shopping", "adjectives", "essential"]
+    },
+    {
+      "id": "v-pianyi",
+      "hanzi": "便宜",
+      "pinyin": "pián yi",
+      "meaningPT": "Barato",
+      "hskLevel": 1,
+      "partOfSpeech": "adjetivo",
+      "examples": [
+        {
+          "sentenceCN": "这个很便宜。",
+          "sentencePinyin": "Zhège hěn piányi.",
+          "sentencePT": "Isso é muito barato."
+        }
+      ],
+      "tags": ["shopping", "adjectives", "essential"]
+    },
+    {
+      "id": "v-dongxi",
+      "hanzi": "东西",
+      "pinyin": "dōng xi",
+      "meaningPT": "Coisa / Objeto",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我想买点东西。",
+          "sentencePinyin": "Wǒ xiǎng mǎi diǎn dōngxi.",
+          "sentencePT": "Eu quero comprar algumas coisas."
+        }
+      ],
+      "notes": "Literalmente 'leste-oeste', mas significa 'coisa'.",
+      "tags": ["shopping", "essential"]
+    },
+    {
+      "id": "v-dianshi",
+      "hanzi": "电视",
+      "pinyin": "diàn shì",
+      "meaningPT": "Televisão",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我喜欢看电视。",
+          "sentencePinyin": "Wǒ xǐhuan kàn diànshì.",
+          "sentencePT": "Eu gosto de assistir TV."
+        }
+      ],
+      "tags": ["shopping", "essential"]
+    },
+    {
+      "id": "v-dianhua",
+      "hanzi": "电话",
+      "pinyin": "diàn huà",
+      "meaningPT": "Telefone",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "你的电话号码是多少？",
+          "sentencePinyin": "Nǐ de diànhuà hàomǎ shì duōshao?",
+          "sentencePT": "Qual é o seu número de telefone?"
+        }
+      ],
+      "tags": ["shopping", "essential"]
+    },
+    {
+      "id": "v-diannao",
+      "hanzi": "电脑",
+      "pinyin": "diàn nǎo",
+      "meaningPT": "Computador",
+      "hskLevel": 1,
+      "partOfSpeech": "substantivo",
+      "examples": [
+        {
+          "sentenceCN": "我用电脑工作。",
+          "sentencePinyin": "Wǒ yòng diànnǎo gōngzuò.",
+          "sentencePT": "Eu trabalho com computador."
+        }
+      ],
+      "notes": "Literalmente 'cérebro elétrico'.",
+      "tags": ["shopping", "essential"]
     }
   ]
 }

@@ -236,11 +236,211 @@
           ]
         }
       ]
+    },
+    {
+      "id": "hsk1-colors",
+      "slug": "hsk1-colors",
+      "trackId": "hsk1",
+      "titleCN": "颜色",
+      "titlePT": "Cores",
+      "descriptionPT": "Aprenda as cores básicas em chinês",
+      "icon": "🎨",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "hsk1-basic-colors",
+          "slug": "hsk1-basic-colors",
+          "moduleId": "hsk1-colors",
+          "titleCN": "基本颜色",
+          "titlePT": "Cores Básicas",
+          "descriptionPT": "Aprenda as cores principais e seu significado cultural na China",
+          "icon": "🌈",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 15,
+          "xpReward": 50,
+          "order": 1,
+          "vocabularyIds": ["v-hong", "v-bai", "v-hei", "v-lv", "v-huang", "v-lan"],
+          "objectives": [
+            "Identificar as 6 cores básicas",
+            "Entender o simbolismo das cores na cultura chinesa",
+            "Descrever objetos usando cores"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk1-verbs",
+      "slug": "hsk1-verbs",
+      "trackId": "hsk1",
+      "titleCN": "动词",
+      "titlePT": "Verbos",
+      "descriptionPT": "Verbos essenciais para comunicação básica",
+      "icon": "🏃",
+      "order": 6,
+      "lessons": [
+        {
+          "id": "hsk1-essential-verbs",
+          "slug": "hsk1-essential-verbs",
+          "moduleId": "hsk1-verbs",
+          "titleCN": "基本动词",
+          "titlePT": "Verbos Essenciais",
+          "descriptionPT": "Aprenda os verbos mais usados no dia a dia",
+          "icon": "✅",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 25,
+          "xpReward": 75,
+          "order": 1,
+          "vocabularyIds": ["v-shi", "v-you", "v-qu", "v-lai", "v-kan", "v-ting", "v-shuo", "v-du", "v-xie", "v-zuo"],
+          "objectives": [
+            "Usar verbos básicos em frases",
+            "Entender a estrutura SVO do chinês",
+            "Formar frases simples com verbos"
+          ]
+        },
+        {
+          "id": "hsk1-action-verbs",
+          "slug": "hsk1-action-verbs",
+          "moduleId": "hsk1-verbs",
+          "titleCN": "行动动词",
+          "titlePT": "Verbos de Ação",
+          "descriptionPT": "Verbos para expressar ações e desejos",
+          "icon": "💪",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 25,
+          "xpReward": 75,
+          "order": 2,
+          "vocabularyIds": ["v-mai", "v-xiang", "v-xihuan", "v-ai", "v-hui", "v-neng", "v-keyi", "v-yao", "v-jiao", "v-zhu", "v-zuo-sit", "v-xuexi"],
+          "objectives": [
+            "Expressar desejos e preferências",
+            "Diferenciar 会, 能 e 可以",
+            "Falar sobre habilidades e permissões"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk1-adjectives",
+      "slug": "hsk1-adjectives",
+      "trackId": "hsk1",
+      "titleCN": "形容词",
+      "titlePT": "Adjetivos",
+      "descriptionPT": "Adjetivos para descrever pessoas, lugares e coisas",
+      "icon": "⭐",
+      "order": 7,
+      "lessons": [
+        {
+          "id": "hsk1-basic-adjectives",
+          "slug": "hsk1-basic-adjectives",
+          "moduleId": "hsk1-adjectives",
+          "titleCN": "基本形容词",
+          "titlePT": "Adjetivos Básicos",
+          "descriptionPT": "Aprenda adjetivos para descrever tamanho, quantidade e qualidade",
+          "icon": "📏",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 20,
+          "xpReward": 60,
+          "order": 1,
+          "vocabularyIds": ["v-da", "v-xiao", "v-duo", "v-shao", "v-hao", "v-gao"],
+          "objectives": [
+            "Descrever tamanhos e quantidades",
+            "Usar 很 antes de adjetivos",
+            "Fazer comparações simples"
+          ]
+        },
+        {
+          "id": "hsk1-descriptive-adjectives",
+          "slug": "hsk1-descriptive-adjectives",
+          "moduleId": "hsk1-adjectives",
+          "titleCN": "描述形容词",
+          "titlePT": "Adjetivos Descritivos",
+          "descriptionPT": "Descreva o clima, aparência e estado das coisas",
+          "icon": "🌡️",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 20,
+          "xpReward": 60,
+          "order": 2,
+          "vocabularyIds": ["v-re", "v-leng", "v-piaoliang", "v-kuai", "v-man", "v-mang"],
+          "objectives": [
+            "Descrever o clima",
+            "Falar sobre aparência",
+            "Expressar velocidade e estado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk1-questions",
+      "slug": "hsk1-questions",
+      "trackId": "hsk1",
+      "titleCN": "疑问词",
+      "titlePT": "Perguntas",
+      "descriptionPT": "Palavras interrogativas para fazer perguntas",
+      "icon": "❓",
+      "order": 8,
+      "lessons": [
+        {
+          "id": "hsk1-question-words",
+          "slug": "hsk1-question-words",
+          "moduleId": "hsk1-questions",
+          "titleCN": "疑问词",
+          "titlePT": "Palavras Interrogativas",
+          "descriptionPT": "Aprenda a fazer perguntas em chinês",
+          "icon": "🤔",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 20,
+          "xpReward": 60,
+          "order": 1,
+          "vocabularyIds": ["v-shenme", "v-shei", "v-na", "v-nar", "v-ji", "v-duoshao", "v-zenme", "v-zenmeyang"],
+          "objectives": [
+            "Fazer perguntas sobre pessoas e coisas",
+            "Perguntar sobre lugares e quantidades",
+            "Usar 吗 para perguntas sim/não"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hsk1-shopping",
+      "slug": "hsk1-shopping",
+      "trackId": "hsk1",
+      "titleCN": "购物",
+      "titlePT": "Compras",
+      "descriptionPT": "Vocabulário para fazer compras e falar sobre dinheiro",
+      "icon": "🛒",
+      "order": 9,
+      "lessons": [
+        {
+          "id": "hsk1-money-shopping",
+          "slug": "hsk1-money-shopping",
+          "moduleId": "hsk1-shopping",
+          "titleCN": "钱和购物",
+          "titlePT": "Dinheiro e Compras",
+          "descriptionPT": "Aprenda a falar sobre preços e fazer compras",
+          "icon": "💰",
+          "type": "vocabulary",
+          "difficulty": "beginner",
+          "durationMin": 20,
+          "xpReward": 60,
+          "order": 1,
+          "vocabularyIds": ["v-qian", "v-kuai-money", "v-gui", "v-pianyi", "v-dongxi", "v-dianshi", "v-dianhua", "v-diannao"],
+          "objectives": [
+            "Perguntar e entender preços",
+            "Negociar em chinês básico",
+            "Vocabulário de eletrônicos comuns"
+          ]
+        }
+      ]
     }
   ],
-  "totalLessons": 10,
-  "totalVocabulary": 75,
-  "estimatedHours": 15,
+  "totalLessons": 18,
+  "totalVocabulary": 150,
+  "estimatedHours": 25,
   "isPublished": true,
   "tags": ["hsk", "beginner", "essential", "foundation"]
 }
